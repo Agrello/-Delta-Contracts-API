@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=0.75">
+    <title>mvp-api</title>
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,800|Raleway:300,400,600,800" rel="stylesheet">
+    <script>
+      var agrelloApi = {
+        selector: '#app',
+        url:'https://{{yourApiUrl}}/api/index.php',
+        user: {
+          first_name: 'Joe',
+          last_name: 'Jonson',
+          middle_name: 'Doe',
+          email: 'joe.doe@gmail.com',
+          sex: 'male',
+          personal_doc_number: 123456,
+          personal_doc_type: 1,
+          personal_doc_expire_date: '2018-01-07',
+          personal_doc_url: 'https://docs.google.com/document/',
+          residence: 'Germany',
+          status: 1,
+          address_street: 'Valukoja 13',
+          address_region: 'Harjumaa',
+          address_city: 'Tallinn',
+          address_zip: '10000',
+          address_country: 'ES',
+          date_of_birth: '1987-12-19'
+        },
+        contractor: {
+          id: '{{userId}}',
+          identityId: '{{identityId}}',
+          company_name: 'Company OU',
+          company_email: 'info@company.ee',
+          company_type: 'Trade company',
+          company_reg_number: 12345,
+          company_vat_number: 43949384,
+          company_card_type: 1,
+          company_card_url: 'https://docs.google.com/document/',
+          residence: 'Estonia',
+          status: 1,
+          address_street: 'Narva mnt 4',
+          address_region: 'Harjumaa',
+          address_city: 'Tallinn',
+          address_zip: '10000',
+          address_country: 'ES'
+        },
+        contract: {
+          templateId: 1,
+          variables: {
+            cost:"100$"
+          }
+        },
+        identity: {},
+        certificate: {}
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
