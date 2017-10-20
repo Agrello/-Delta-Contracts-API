@@ -28,3 +28,9 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+#API Specification
+API specification with examples located on Google Cloud platform:
+https://docs.google.com/document/d/1NpZYlfIhAF95ytlW7rqVd2Eel0_uLkAQoGjopwxQwmY
+
