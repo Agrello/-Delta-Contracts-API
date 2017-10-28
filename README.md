@@ -1,6 +1,20 @@
-# mvp-api
+</br>
+<p align="center">
+  <img src="https://daks2k3a4ib2z.cloudfront.net/593cdf92bedace68bd40cdbc/593ce428c427e47a006057a6_Logo.png"
+       width="256px"/>
+</p>
+<h1 align="center">
+  mvp-api
+</h1>
+<p align="center">
+  <!--Your description comes here, placeholder:-->
+  The main repository for the API of Contracts using Delta. <i>A Vue.js project</i>
+</p>
 
-> A Vue.js project
+<!--You could add contents here, like:
+- [Build Setup](#build-setup)
+- [API Specification](#api-specification)
+-->
 
 ## Build Setup
 
